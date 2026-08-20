@@ -216,3 +216,31 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ------------------------------------------------------------
+# EBD / ROS 2 project
+# ------------------------------------------------------------
+
+# colcon-generated workspace output
+install/
+log/
+
+# Development backups / temporary files
+*.bak
+*.bak_*
+*.bak.*
+*.orig
+*~
+
+# ROS bag / recorded data
+rosbag2_*/
+*.db3
+*.mcap
+
+# Large model artifacts
+*.hef
+*.onnx
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
